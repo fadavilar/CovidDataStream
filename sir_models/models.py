@@ -4,7 +4,7 @@ from copy import deepcopy
 import lmfit
 from scipy.integrate import odeint
 from lmfit import Parameters
-from .utils import stepwise_soft, shift
+from .utils import stepwise_soft, shift#there is an error in this code
 
 
 class SEIR:
